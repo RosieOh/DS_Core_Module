@@ -1,0 +1,41 @@
+=== EDA Report ===
+
+1. Data Summary:
+                 A           B    C           D                 date
+count   100.000000  100.000000  100   91.000000                  100
+unique         NaN         NaN    3         NaN                  NaN
+top            NaN         NaN    x         NaN                  NaN
+freq           NaN         NaN   35         NaN                  NaN
+mean     49.911863   52.520000  NaN  101.896335  2023-02-19 12:00:00
+min      23.802549   10.000000  NaN   60.100769  2023-01-01 00:00:00
+25%      43.990943   28.750000  NaN   87.491931  2023-01-25 18:00:00
+50%      48.730437   52.000000  NaN  100.302866  2023-02-19 12:00:00
+75%      54.100904   76.250000  NaN  118.406723  2023-03-16 06:00:00
+max     150.000000   99.000000  NaN  147.780719  2023-04-10 00:00:00
+std      13.576426   27.220937  NaN   21.183538                  NaN
+
+2. Missing Values:
+A       0
+B       0
+C       0
+D       9
+date    0
+dtype: int64
+
+3. Data Types:
+A              float64
+B                int64
+C               object
+D              float64
+date    datetime64[ns]
+dtype: object
+
+4. Distribution Statistics:
+   Skewness   Kurtosis
+A  3.979778  29.236627
+B  0.046664  -1.149732
+D  0.115106  -0.661785
+
+5. Outlier Summary:
+{'A': {'outlier_count': 2, 'outlier_values': [150.0, 23.802548959102555]}, 'B': {'outlier_count': 0, 'outlier_values': []}, 'D': {'outlier_count': 0, 'outlier_values': []}}
+
